@@ -220,11 +220,12 @@ h4 {
 .unsustainable {
     color: black;
     text-align: center;
+    margin-top: -200px;
 }
 
 .good-company {
     text-align: center;
-    margin-top: -200px;
+    margin-top: -300px;
 }
 
 .advertisment {
@@ -246,12 +247,26 @@ h4 {
 }
 
 #footer {
-    background-color: black;
-    color: white;
+    background-color: white;
     position: relative;
     height: 100px;
-    margin-top: -100px;
-    clear: both;
-    text-align: cen;
+    margin-top: 200px;
+    text-align: center;
 }
 
+
+.footer-text {
+    margin: 10px 0; /* Optional: Add some spacing between the lines of text */
+  }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.image-container img {
+    max-width: 200px;
+    height: auto;
+    margin: 100px;
+    margin-bottom: 200px;
+}
