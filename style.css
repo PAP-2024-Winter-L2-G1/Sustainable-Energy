@@ -87,21 +87,19 @@ nav a:hover::before {
     z-index: -1;
 }
 
-h1 {
-    font-size: 70px;
-    padding-top: 16.5%;
-    
-    font-weight: bold;
+.green-btn{
+    color: black;
 }
 
-h3 {
-    padding-top: 5%;
-    font-size: 50px;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid white;
-    padding: 14px 70px;
-    border-radius: 50px;
+.green-btn:hover {
+    color: green; /* Change this to the desired hover color */
+  }
+
+
+h1 {
+    font-size: 70px;
+    padding-top: 18%;
+    font-weight: bold;
 }
 
 h4 {
@@ -140,7 +138,7 @@ h4 {
 .types{
     color: black;
     padding-left: 45px;
-    padding-top: 20%;
+    padding-top: 30%;
 }
 
 .solar-panels {
@@ -254,6 +252,6 @@ h4 {
     height: 100px;
     margin-top: -100px;
     clear: both;
-    text-align: center;
+    text-align: cen;
 }
 
